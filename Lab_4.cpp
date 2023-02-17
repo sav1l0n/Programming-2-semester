@@ -138,6 +138,11 @@ int main () {
         }
         cout << endl;
     }
+    
+    delete (A);
+    delete (M);
+    delete (temp_i);
+    delete (temp_j);
 
     return 0;
 }
